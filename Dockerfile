@@ -30,6 +30,11 @@ RUN apt-get update && apt-get -y upgrade \
 COPY odtp-component-client/requirements.txt /tmp/odtp.requirements.txt
 RUN pip install -r /tmp/odtp.requirements.txt
 
+RUN apt-get install -y --no-install-recommends \
+  nodejs\
+  npm\
+  yarn
+
 
 #######################################################################
 # PLEASE INSTALL HERE ALL SYSTEM DEPENDENCIES RELATED TO YOUR TOOL

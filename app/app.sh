@@ -32,6 +32,10 @@ cd /odtp/odtp-workdir/simwrapper
 # While the output is managed by ODTP and placed in /odtp/odtp-output/
 #########################################################
 
+npm ci
+npm run serve -- --port 8088
+
+
 # COMMAND $PARAMETER_A #PARAMETER_B /odtp/odtp-input/data
 
 #########################################################

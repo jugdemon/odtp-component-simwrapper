@@ -10,9 +10,9 @@
 # Clone the repository of your tool and checkout to one specific commit. 
 #########################################################
 
-# git clone https://github.com/odtp-org/tool-example.git /odtp/odtp-workdir/tool-example
-# cd /odtp/odtp-workdir/tool-example
-# git checkout xxxxxxxxxxxx
+git clone https://github.com/simwrapper/simwrapper.git /odtp/odtp-workdir/simwrapper --depth 1 -c advice.detachedHead=false -b v3.4.1
+cd /odtp/odtp-workdir/simwrapper
+
 
 #########################################################
 # 2. CONFIG FILE CONFIGURATION

@@ -4,11 +4,11 @@ component-author: Jascha Grübel  (jugdemon)
 component-version: 0.1.0
 component-repository: https://github.com/jugdemon/odtp-component-simwrapper
 component-license: BSD3
-component-type: ephemeral or interactive
+component-type: interactive
 component-description: Description
 tags:
-  - tag1
-  - tag2
+  - Mobility
+  - Visualisation
 
 # Information about the tools
 tools:

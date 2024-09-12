@@ -1,9 +1,9 @@
 # This file should contain basic component information for your component.
-component-name: Component Name
-component-author: Component Author
-component-version: Component Version
-component-repository: Component Repository
-component-license: Component License
+component-name: ODTP Component for SimWrapper
+component-author: Jascha Grübel  (jugdemon)
+component-version: 0.1.0
+component-repository: https://github.com/jugdemon/odtp-component-simwrapper
+component-license: BSD3
 component-type: ephemeral or interactive
 component-description: Description
 tags:
@@ -12,11 +12,11 @@ tags:
 
 # Information about the tools
 tools:
-  - tool-name: tool's name
-    tool-author: Tool's author
-    tool-version: Tool version
-    tool-repository: Tool's repository
-    tool-license: Tool's license
+  - tool-name: SimWrapper
+    tool-author: Billy Charlton (billyc)
+    tool-version: 3.4.1
+    tool-repository: https://github.com/simwrapper/simwrapper
+    tool-license: GPL3
 
 # If your tool require some secrets token to be passed as ENV to the component
 # This won't be traced in MongoDB
